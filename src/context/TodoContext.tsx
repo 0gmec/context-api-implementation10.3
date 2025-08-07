@@ -1,5 +1,5 @@
 import React from 'react';
-import type {TodoItems}  from '../types';
+import type {TodoItem}  from '../types';
  
 
 export const TodoContext = React.createContext({

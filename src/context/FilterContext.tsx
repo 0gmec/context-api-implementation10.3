@@ -1,4 +1,6 @@
 import React from 'react';
  
 
-const FilterContext = React.createContext
+export const FilterContext = React.createContext({
+    setFilter: (filter: string)=> {}
+})
