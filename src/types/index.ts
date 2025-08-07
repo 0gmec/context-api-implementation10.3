@@ -5,11 +5,11 @@ text: string
 completed: boolean
 }
 
-export interface FilterContext {
+export interface Filter {
     filter: 'all' | 'active' | 'completed'
 }
 
-export interface ThemeContext {
+export interface Theme {
   theme: 'light' | 'dark';
   toggleTheme: () => void;
 }
